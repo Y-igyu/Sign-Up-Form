@@ -4,24 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <img src="./street-img.jpg" width="400px">
-        <form action="">
-            <label for="" id="first-name">First Name: </label>
-            <input>
-            <label for="" id="last-name">Last Name: </label>
-            <input>
-            <label for="" id="email">Email: </label>
-            <input>
-            <label for="" id="phone-num">Phone Number: </label>
-            <input>
-            <label for="" id="password">Password: </label>
-            <input>
-            <label for="" id="confirm-password">Confirm Password: </label>
-            <input>
-        </form>
+
+        <div class="img-content">
+            <img class="main-img" src="./lawrence-kayku-unsplash.jpg">
+            <div class="img-sidebar">
+                <img src="odin-lined.png" alt="odin logo">
+                <p class="img-text">I See You</p>
+            </div>
+            <p class="img-box">
+                Photo by <a class="credit" href="https://unsplash.com/@ghog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lawrence Kayku</a> on <a class="credit" href="https://unsplash.com/photos/close-up-photography-of-green-leafed-plant-frWOcVisp8U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+        </div>
+
+        <div class="content">
+            <p>
+                This is not a real online service! 
+                You know you need something like this in your life to help you realize your deepest dreams. 
+                Sign up <em>now</em> to get started.
+            </p>
+
+            <p>
+                You know you want to.
+            </p>
+
+            <fieldset action="" method="post">
+                <label for="first-name">First Name: </label>
+                <input id="first-name" name="first-name">
+                <label for="last-name">Last Name: </label>
+                <input id="last-name" name="last-name">
+                <label for="email">Email: </label>
+                <input id="email" name="email">
+                <label for="phone-num">Phone Number: </label>
+                <input id="phone-num" name="phone-num">
+                <label for="password">Password: </label>
+                <input id="password" name="password">
+                <label for="confirm-password">Confirm Password: </label>
+                <input id="confirm-password" name="confirm-password">
+            </fieldset>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="https://github.com/Y-igyu" target="_blank" class="login">Log In</a></p>
+        </div>
+
     </div>
+
 </body>
 </html>
