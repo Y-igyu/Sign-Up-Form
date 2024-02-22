@@ -14,7 +14,7 @@
             
             <div class="img-sidebar-background"></div>
             <div class="img-sidebar">
-                <p class="img-text"><img id="odin-logo" src="odin-lined.png" alt="odin logo"> <span>I See You</span></p>
+                <p class="img-text"><img id="odin-logo" src="odin-lined.png" alt="odin logo"> <span>Welcome</span></p>
             </div>
             <p class="img-box">
                 Photo by <a class="credit" href="https://unsplash.com/@ghog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Lawrence Kayku</a> on <a class="credit" href="https://unsplash.com/photos/close-up-photography-of-green-leafed-plant-frWOcVisp8U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
@@ -22,33 +22,43 @@
         </div>
 
         <div class="content">
-            <p>
-                This is not a real online service! 
-                You know you need something like this in your life to help you realize your deepest dreams. 
-                Sign up <em>now</em> to get started.
-            </p>
+            <div class="text">
+                <p>
+                    This is not a real online service! 
+                    You know you need something like this in your life to help you realize your deepest dreams. 
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+            </div>
 
-            <p>
-                You know you want to.
-            </p>
-
-            <fieldset action="" method="post">
+            <fieldset class="sign-up" action="" method="post">
                 <h2>Let's do this!</h2>
-                <label for="first-name">First Name: </label>
-                <input id="first-name" name="first-name">
-                <label for="last-name">Last Name: </label>
-                <input id="last-name" name="last-name">
-                <label for="email">Email: </label>
-                <input id="email" name="email">
-                <label for="phone-num">Phone Number: </label>
-                <input id="phone-num" name="phone-num">
-                <label for="password">Password: </label>
-                <input id="password" name="password">
-                <label for="confirm-password">Confirm Password: </label>
-                <input id="confirm-password" name="confirm-password">
+                <div class="full-name">
+                    <label for="first-name">First Name: </label>
+                    <input id="first-name" name="first-name" type="name">
+                    <label for="last-name">Last Name: </label>
+                    <input id="last-name" name="last-name">
+                </div>
+                <div class="contact">
+                    <label for="email">Email: </label>
+                    <input id="email" name="email" type="email">
+                    <label for="phone-num">Phone Number: </label>
+                    <input id="phone-num" name="phone-num" type="number">
+                </div>
+                <div class="userpasswd">
+                    <label for="password">Password: </label>
+                    <input id="password" name="password" type="password">
+                    <label for="confirm-password">Confirm Password: </label>
+                    <input id="confirm-password" name="confirm-password" type="password">
+                </div>
             </fieldset>
-            <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="https://github.com/Y-igyu" target="_blank" class="login">Log In</a></p>
+
+            <div class="bottom-text">
+                <button type="submit">Create Account</button>
+                <p class="has-account">Already have an account? <a href="https://github.com/Y-igyu" target="_blank" class="login">Log In</a></p>
+            </div>
         </div>
 
     </div>
