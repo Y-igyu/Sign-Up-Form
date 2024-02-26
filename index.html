@@ -11,7 +11,7 @@
 
         <div class="img-content">
             <img class="main-img" src="./lawrence-kayku-unsplash.jpg">
-            
+
             <div class="img-sidebar-background"></div>
             <div class="img-sidebar">
                 <p class="img-text"><img id="odin-logo" src="odin-lined.png" alt="odin logo"> <span>Welcome</span></p>
@@ -25,7 +25,11 @@
             <div class="text">
                 <p>
                     This is not a real online service! 
-                    You know you need something like this in your life to help you realize your deepest dreams. 
+                    You know you need something
+                    <br>
+                    like this in your life to help you realize your deepest dreams. 
+                </p>
+                <p class="p-split">
                     Sign up <em>now</em> to get started.
                 </p>
                 <p>
@@ -35,28 +39,44 @@
 
             <fieldset class="sign-up" action="" method="post">
                 <h2>Let's do this!</h2>
-                <div class="full-name">
-                    <label for="first-name">First Name: </label>
-                    <input id="first-name" name="first-name" type="name">
-                    <label for="last-name">Last Name: </label>
-                    <input id="last-name" name="last-name">
-                </div>
-                <div class="contact">
-                    <label for="email">Email: </label>
-                    <input id="email" name="email" type="email">
-                    <label for="phone-num">Phone Number: </label>
-                    <input id="phone-num" name="phone-num" type="number">
-                </div>
-                <div class="userpasswd">
-                    <label for="password">Password: </label>
-                    <input id="password" name="password" type="password">
-                    <label for="confirm-password">Confirm Password: </label>
-                    <input id="confirm-password" name="confirm-password" type="password">
+
+                <div class="input-elements">
+                    <div class="full-name input-div">
+                        <div class="input-split">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" name="first-name" type="name">
+                        </div>
+                        <div class="input-split">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" name="last-name">
+                        </div>
+                    </div>
+
+                    <div class="contact input-div">
+                        <div class="input-split">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email">
+                        </div>
+                        <div class="input-split">
+                            <label for="phone-num">Phone Number</label>
+                            <input id="phone-num" name="phone-num" type="number">
+                        </div>
+                    </div>
+
+                    <div class="userpasswd input-div">
+                        <div class="input-split">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password">
+                        </div>
+                        <div class="input-split">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input id="confirm-password" name="confirm-password" type="password">
+                        </div>
+                    </div>
                 </div>
             </fieldset>
-
             <div class="bottom-text">
-                <button type="submit">Create Account</button>
+                <button id="submit-btn" type="submit">Create Account</button>
                 <p class="has-account">Already have an account? <a href="https://github.com/Y-igyu" target="_blank" class="login">Log In</a></p>
             </div>
         </div>
